@@ -2,7 +2,6 @@
 
 Linked List use CMake. The first step is to make sure all of the submodules are initialized:
 
-```
 
 Then make a build directory and do a typical CMake build from there:
 
@@ -12,8 +11,8 @@ cd build
 cmake ..
 make
 ```
-
 ## Documentation
+
 
 ## License
 
