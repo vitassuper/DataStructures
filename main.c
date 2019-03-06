@@ -50,9 +50,9 @@ List*createList() {
 	return list;
 }
 
-#pragma region NIKOLAYS_HUETA
+#pragma region NIKOLAYS
 
-void XUYPush(List *list, void *value) {
+void AnotherPush(List *list, void *value) {
 	Node*node = malloc(sizeof(Node));
 	node->value = value;
 	if (list->head == NULL) {
@@ -66,7 +66,7 @@ void XUYPush(List *list, void *value) {
 	list->size++;
 }
 
-void* XUYPop(List*list){
+void* AnotherPop(List*list){
 	if (list->size == NULL) return NULL;
 	Node *node = list->tail;
 	void*ret_val = node->value;
